@@ -122,14 +122,14 @@ func showSplash() {
 ███████║   ██║   ███████╗██║  ██║██║ ╚═╝ ██║    ██║██████╔╝    ╚██████╗██║  ██║███████╗╚██████╗██║  ██╗███████╗██║  ██║
 ╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝    ╚═╝╚═════╝      ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
                                                                                                                         
-------------------------------------------------------------------------------------------------------------------------` + Cyan + `
-STEAM ID AVAILABILITY CHECKER — modified by v - @maakima on IG
+------------------------------------------------------------------------------------------------------------------------` + Green + `
+STEAM ID AVAILABILITY CHECKER — v - @maakima on IG
 
-This software will check for IDs inside "` + Blue + `targets.txt` + Cyan + `" feel free to replace the content of this file with a list of IDs
+This software will check for IDs inside "` + Blue + `targets.txt` + Green + `" feel free to replace the content of this file with a list of IDs
 you want to check!
 
 I also recommend you to run the targets.txt file through a randomizer so you're not checking 
-the usernames in alphabetic order` + Blue + `
+the usernames in alphabetic order` + Green + `
 ------------------------------------------------------------------------------------------------------------------------` + Reset)
 }
 
@@ -148,11 +148,11 @@ func main() {
 		}
 	}
 
-	fmt.Println(Cyan + `
+	fmt.Println(Red + `
 +-----------------------+
-|` + Blue + ` 1. Start New Session` + Cyan + `  |
-|` + Blue + ` 2. Resume Session` + Cyan + `     |
-|` + Blue + ` 3. Exit` + Cyan + `               |
+|` + Green + ` 1. Start New Session` + Red + `  |
+|` + Green + ` 2. Resume Session` + Red + `     |
+|` + Green + ` 3. Exit` + Red + `               |
 +-----------------------+` + Reset)
 	fmt.Print(Cyan + "\n-> Choose an option" + Reset + ": ")
 
