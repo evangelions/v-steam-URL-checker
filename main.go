@@ -117,7 +117,7 @@ func showSplash() {
 ╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝    ╚═╝╚═════╝      ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
                                                                                                                         
 ------------------------------------------------------------------------------------------------------------------------` + Green + `
-STEAM ID AVAILABILITY CHECKER — v - @maakima on IG
+STEAM ID AVAILABILITY CHECKER — modified by v - @maakima on IG
 This software will check for IDs inside "` + Blue + `targets.txt` + Green + `" replace the content of this txtt file with a list of IDs
 you want to check!
 ` + Red + `
