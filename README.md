@@ -11,6 +11,8 @@ This is also my first program in Go, and something i decided to do for fun so th
 - **Session management**: Create new sessions or resume existing ones.
 - **Progress tracking**: The tool remembers where it left off in case of interruptions.
 
+## Download 
+get the exe from the release page: https://github.com/evangelions/Vsteam/releases/tag/v1.1 
 
 ## Usage
 
