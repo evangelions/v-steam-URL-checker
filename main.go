@@ -119,7 +119,7 @@ func showSplash() {
 ------------------------------------------------------------------------------------------------------------------------` + Green + `
 STEAM ID AVAILABILITY CHECKER — Template by yTax - modified by v@maakima
 This software will check for IDs inside "` + Blue + `targets.txt` + Green + `" replace the content of this txt file with a list of IDs
-you want to check, or choose option 4 to auto generate some!
+you want to check, or choose option 3 to auto generate some!
 ` + Red + `
 ------------------------------------------------------------------------------------------------------------------------` + Reset)
 }
@@ -171,8 +171,8 @@ func main() {
 +-----------------------+
 |` + Green + ` 1. Start New Session` + Red + `  |
 |` + Green + ` 2. Resume Session` + Red + `     |
-|` + Green + ` 3. Exit` + Red + `               |
-|` + Green + ` 4. Generate Random IDs` + Red + `|
+|` + Green + ` 3. Generate Random IDs` + Red + `|
+|` + Green + ` 4. Exit` + Red + `               |
 +-----------------------+` + Reset)
 
 	fmt.Print(Cyan + "\n-> Choose an option" + Reset + ": ")
@@ -198,11 +198,11 @@ func main() {
 		outputPath = filepath.Join(sessionPath, "output.txt")
 		isNewSession = false
 	case "3":
-		fmt.Println(Red + "Exiting program. Hope you found some good IDs!" + Reset)
-		os.Exit(0)
-	case "4":
 		generateRandomIDs()
 		return // exits after generating so user can run again and start checking
+	case "4":
+		fmt.Println(Red + "Exiting program. Hope you found some good IDs!" + Reset)
+		os.Exit(0)
 	default:
 		fmt.Println(Red + "Invalid choice. Please restart the program." + Reset)
 		return
