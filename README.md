@@ -27,4 +27,4 @@ When you run the tool, you'll be greeted with a menu to select your desired acti
 - checker will currently give false positives for shadowbanned accounts (working on fix)
 
 ## Credits
-script template made by [yTax](https://github.com/yTax) with modifications made by me.
+script template made by [yTax](https://github.com/yTax)
