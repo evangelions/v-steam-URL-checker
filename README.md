@@ -2,6 +2,7 @@
 # Steam ID Checker
 
 This is a command-line tool written in Go that allows you to check the availability of Steam IDs.
+The program will check each Steam ID from your `targets.txt` file. If an ID is available, it will be saved to the `output.txt` file. The program will also track your progress, so you can stop and resume your session at any time.
 
 ## Features
 
@@ -22,6 +23,8 @@ When you run the tool, you'll be greeted with a menu to select your desired acti
 3. **Generate Random IDs**: Generates a list of random 3c/3l/4c/4l in the `targets.txt` file.
 4. **Exit**: Exit the program.
 
-The program will check each Steam ID from your `targets.txt` file. If an ID is available, it will be saved to the `output.txt` file. The program will also track your progress, so you can stop and resume your session at any time.
+## Issues
+- checker will currently give false positives for shadowbanned accounts (working on fix)
 
-script template made by @yTax with modifications made by me.
+## Credits
+script template made by [@yTax](https://github.com/yTax) with modifications made by me.
