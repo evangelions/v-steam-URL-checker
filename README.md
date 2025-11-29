@@ -2,7 +2,8 @@
 # Steam ID Checker
 
 This is a command-line tool written in Go that allows you to check the availability of Steam IDs.
-script template made by @yTax with modifications made by me
+script template made by @yTax with modifications made by me.
+
 ## Features
 
 - **Check Steam ID availability**: Check if a Steam ID is available or already claimed.
