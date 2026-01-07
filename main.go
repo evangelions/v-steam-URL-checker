@@ -27,7 +27,7 @@ var (
 )
 
 // Your single rotating proxy
-const proxyURL = "http://68bbace2dad36afa4017__cr.us:fe2f56a2f60e0f54@gw.dataimpulse.com:823"
+const proxyURL = ""
 
 func checkID(id string) bool {
     client := resty.New().
